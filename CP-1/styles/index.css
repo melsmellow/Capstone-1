@@ -39,7 +39,7 @@ div > .py-2 {
 
 /*Navbar*/
 #navbar {
-  background-color: #17252A;
+  background-color: #17252A; 
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -75,7 +75,8 @@ div #abt-text-2{
   border-left-color: #2B7A78;
   border-left-width: 5px;
   font-weight: bold;
-    font-style: italic;
+  font-style: italic;
+   font-size: 25px;
 }
 
 
@@ -87,6 +88,11 @@ div #abt-text {
 
 }
 
+div #logo {
+  color: #2B7A78;
+
+
+}
 /*End of About me*/
 
 /*Start of Project section*/
@@ -105,6 +111,49 @@ div > div > div ul button li {
 }
 /*End of Project section*/
 
+
+/*ARtwork*/
+#artwork {
+   background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+/*End of Artwork*/
+
+/*Contact*/
+#contact {
+   background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+div #contact-txt {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
+
+div #contact-txt2{
+  color: #17252A;
+  border-right: solid;
+  border-right-color: #2B7A78;
+  border-right-width: 5px;
+}
+
+
+div #cbtn {
+
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+/*End of Contact*/
+
+/*Footer*/
+#footer {
+  background-color: #17252A; 
+}
+
+footer div {
+  color: #DEF2F1;
+}
+/*End of footer*/
 
 /*para sa smooth transition*/
 @media (prefers-reduced-motion: no-preference) {
