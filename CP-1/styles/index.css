@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
 }
 
 /* background image part*/
@@ -74,8 +74,8 @@ div #abt-text-2{
   border-left: solid;
   border-left-color: #2B7A78;
   border-left-width: 5px;
-  font-weight: bold;
-  font-style: italic;
+  /*font-weight: bold;*/
+  /*font-style: italic;*/
    font-size: 25px;
 }
 
