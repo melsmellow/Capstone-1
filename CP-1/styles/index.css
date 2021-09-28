@@ -29,6 +29,20 @@ div > .py-2 {
    font-weight: bold;
 }
 
+/*text animation*/
+/*div > #txt-me {
+  animation : text 1.5s 1;
+}
+
+
+@keyframes text {
+  0%{
+    color: white;
+    margin-bottom: -40px;
+  }
+*/
+}
+
 #btn:hover {
   font-weight: bold;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -109,6 +123,23 @@ div > div > div ul button li {
 #project {
    background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
 }
+
+div  .proj-title {
+   font-weight: bold;
+  color: #17252A;
+  font-size: 30px;
+}
+
+
+/*div #p-text {
+  color: #17252A;
+  border-bottom: solid;
+  border-bottom-color: #2B7A78;
+  border-bottom-width: 5px;
+  
+
+}*/
+
 /*End of Project section*/
 
 
