@@ -6,7 +6,7 @@
 
 /* background image part*/
 .bg-image {
-  opacity: 0.9;
+  opacity: 0.85;
   background-size: 100%;
   height: 100%;
   padding-bottom: 150px;
@@ -67,6 +67,10 @@ div > .py-2 {
   font-size: 25px;
   /*color: #3AAFA9;*/
   color: #DEF2F1;
+}
+
+nav #pLogo {
+  width:  50px;   
 }
 
 
@@ -174,6 +178,20 @@ div #cbtn {
   font-size: 20px;
 }
 
+
+
+div div div .aImg {
+  padding: 15px;
+  transition: transform .2s; /* Animation */
+  margin: auto;
+ 
+
+}
+
+div div div .aImg:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
 /*End of Contact*/
 
 /*Footer*/
@@ -185,6 +203,33 @@ footer div {
   color: #DEF2F1;
 }
 /*End of footer*/
+
+
+
+/*Tools Section*/
+
+div #tools-txt {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
+
+#tools {
+    background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+div .icon-pic {
+  width: 80px;
+
+
+}
+/*End of Tools Section*/
+
+div #tools-txt2 {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
 
 /*para sa smooth transition*/
 @media (prefers-reduced-motion: no-preference) {
