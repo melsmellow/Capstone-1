@@ -4,6 +4,9 @@
   font-family: 'Arvo', serif;
 }
 
+
+
+
 /* background image part*/
 .bg-image {
   opacity: 0.85;
@@ -72,6 +75,22 @@ div > .py-2 {
 nav #pLogo {
   width:  50px;   
 }
+
+/*progress bar*/
+.progress-bar{
+  height: 8px;
+  width: 0%;
+  left: 0px;
+  border-radius: 10px;
+  background: #3cf0e7;
+  margin-top: 50px;
+}
+
+#navScrollBar{
+  pointer-events: none;
+}
+
+
 
 
 /*End of Navbar*/
@@ -184,6 +203,7 @@ div div div .aImg {
   padding: 15px;
   transition: transform .2s; /* Animation */
   margin: auto;
+  border-radius: 30px;
  
 
 }
